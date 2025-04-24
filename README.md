@@ -1,32 +1,32 @@
-#Foodie Subscription Data Analysis – SQL Project Documentation
+# Foodie Subscription Data Analysis – SQL Project Documentation
 
 
-##Project Overview
+## Project Overview
 Project Title: Foodie Subscription Data Analysis Using SQL
 Objective:
 To analyze user behavior, revenue generation, and plan migration patterns of customers on the Foodie-Fi subscription platform. The project aims to extract insights on customer retention, plan preferences, revenue impact, and overall engagement throughout the subscription lifecycle.
 
-##Tools Used
+## Tools Used
 SQL (PostgreSQL syntax)
 
 DBMS/Platform: MYSQL
 
 Data Visualization/Reporting: Optional (e.g., Power BI, Excel, Tableau – not used here but recommended for next steps)
 
-##Dataset Description
-Table: subscriptions
+# Dataset Description
+## Table: subscriptions
 
-###Column Description
-customer_id	Unique identifier for each customer
-plan	Subscription plan (free_trial, basic, pro, ultimate, churn)
-start_date	Date when customer started a plan
-Table: plans
+### Column Description
+customer_id: Unique identifier for each customer plan	
+Subscription plan (free_trial, basic, pro, ultimate, churn)
+start_date: Date when customer started a plan
 
-###Column Description
-plan_id	Unique identifier for plan
-plan_name	Name of the plan
-price	Monthly subscription price in dollars
-##Business Questions Answered
+## Table: plans
+### Column Description
+plan_id: Unique identifier for plan
+plan_name: Name of the plan price	
+Monthly subscription: price in dollars
+## Business Questions Answered
 1. New Customers Per Month
 Analyzed customer acquisition trends monthly.
 
@@ -72,7 +72,7 @@ Calculated the number of days taken to upgrade or churn from initial trial.
 
 Insight: Helps in understanding user decision timelines.
 
-##Key Findings
+## Key Findings
 A significant number of customers start with the free trial, but only a portion upgrade to pro or ultimate.
 
 The basic plan may act as a bottleneck or necessary transition phase.
@@ -83,7 +83,7 @@ Churn rates are highest from the basic plan.
 
 Most upgrades or churns happen within the first 30–60 days of a customer's journey.
 
-##Recommended Next Steps
+## Recommended Next Steps
 Dashboard Creation: Build interactive dashboards in Power BI/Tableau to visualize:
 
 Monthly customer growth
@@ -100,7 +100,7 @@ Predictive Modeling: Use historical plan transitions to predict potential churn 
 
 AB Testing Suggestion: Test new pricing or trial features on a subset of customers to improve upgrade rates.
 
-##Learnings
+## Learnings
 Mastered use of CTEs, joins, aggregations, and date functions in SQL.
 
 Gained business acumen by turning raw data into actionable insights.
